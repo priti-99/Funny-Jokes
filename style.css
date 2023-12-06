@@ -5,26 +5,25 @@
 }
 
 .parent{
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
-    background-color: antiquewhite;
+    background-color: #dff9fb;
     display: grid;
     place-content: center;
 
 }
 
-/* #header{
-    height: 10vh;
-    width: 20vw;
-    display: grid;
-    place-content: center;
-    background-color:rgb(149, 210, 238);      
-}*/
+#header{
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 10px 10px 5px  antiquewhite ;  
+    background-color: #22a6b3;
+}
 
 .child{
     height: 40vh;
     width: 60vw;
-    background-color: rgb(149, 210, 238);
+    background-color: #7ed6df;
 }
 
 .emoji{
